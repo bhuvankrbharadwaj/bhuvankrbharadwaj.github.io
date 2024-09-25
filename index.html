@@ -4,22 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bhuvan's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        section {
+            background: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+        }
+        ul li {
+            padding: 5px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            margin-top: 20px;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        /* Profile Image Styling */
+        .profile-img {
+            width: 200px; /* Adjust the size as needed */
+            height: 200px;
+            border-radius: 50%; /* Makes the image circular */
+            display: block;
+            margin: 20px auto; /* Centers the image */
+            object-fit: contain; /* Ensures the whole image fits in the circular frame */
+            object-position: center; /* Centers the image within the frame */
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi, I'm Bhuvan, a student.</p>
+        <h1>Gowri C P</h1>
+        <p>Tech Enthusiast | Learner | Web Developer</p>
     </header>
-    <section>
-        <h2>About Me</h2>
-        <p>I like cricket.</p>
-    </section>
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Project 1:</strong> Description of my project.</li>
-            <li><strong>Project 2:</strong> Description of another one of my project.</li>
-        </ul>
-    </section>
+
+    <div class="container">
+        <!-- Profile Image -->
+        <img src="https://github.com/gowricp3/gowricp3.github.io/blob/main/1BM23MC022.png?raw=true" alt="Profile Image" class="profile-img">
+
+        <!-- About Me Section -->
+        <section>
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm a passionate web developer specializing in building interactive and responsive web applications. I enjoy learning new technologies and applying them to solve real-world problems.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Node.js, Express</li>
+                <li>MongoDB, MySQL</li>
+                <li>Git, GitHub</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Eco Sort:</strong> Developed a waste management recommendation platform using MERN stack.</li>
+            </ul>
+        </section>
+
+        <!-- Contact Section -->
+        <section>
+            <h2>Contact</h2>
+            <p>Email: bhuvanbharadwaj1817@gmail.com</p>
+            <p>GitHub: <a href="https://bhuvankrbharadwaj.github.io/" target="_blank">https://bhuvankrbharadwaj.github.io/</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Bhuvan K R Bharadwaj | All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
